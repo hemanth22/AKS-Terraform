@@ -45,9 +45,8 @@
 name: 'Terraform'
 
 on:
-  push:
-    branches:
-    - master
+  release:
+    types: [created]
   pull_request:
 
 jobs:
