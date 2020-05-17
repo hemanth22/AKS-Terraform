@@ -1,3 +1,9 @@
+#Declare variables
+
+variable "ARM_CLIENT_ID" {}
+
+variable "ARM_CLIENT_SECRET" {}
+
 # Configure the Microsoft Azure Provider.
 provider "azurerm" {
   version = "~>1.31"
